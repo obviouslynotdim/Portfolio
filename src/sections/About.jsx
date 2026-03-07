@@ -17,11 +17,11 @@ export const About = () => {
                     </h3>
 
                     <p className="text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusantium odio praesentium est eius facilis odit expedita dolorum inventore in.
+                        A Software Engineering student with a strong interest in full-stack development. I enjoy building practical applications, exploring new technologies, and turning ideas into working solutions
                     </p>
 
                     <p className="text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusantium odio praesentium est eius facilis odit expedita dolorum inventore in.
+                        I am detail-oriented, highly motivated to improve my skills, and eager to gain hands-on experience in a real-world development environment.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start items-center">

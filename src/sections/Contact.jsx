@@ -79,10 +79,7 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Contact Me</h2>
           <p className="font-normal text-neutral-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Architecto, adipisci commodi repudiandae esse suscipit officia,
-            quaerat modi veritatis, animi explicabo laudantium soluta possimus
-            quod praesentium odit fuga quam voluptatem dicta.
+            " I’m always excited to learn new things and take on challenges that help me grow. If you have a project, an idea to share, or just want to connect, I’d love to hear from you. Let’s collaborate, share knowledge, and create something meaningful together! "
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -95,7 +92,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Your Name..."
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -111,7 +108,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@gmail.com"
+              placeholder="useremail@gmail.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

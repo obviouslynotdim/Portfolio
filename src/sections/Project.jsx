@@ -52,7 +52,7 @@ const projects = [
     description: "My First Web Development Project using HTML CSS, a simple webshop for clothing. It features a clean design, product listings, and basic shopping cart functionality.",
     image: "/projects/webshop.png",
     tags: ["HTML", "CSS"],
-    demoUrl: "https://vercel.com/obviouslynotdims-projects?repo=https://github.com/obviouslynotdim/teedeployment-test",
+    demoUrl: "https://teedeployment-test.vercel.app/",
     githubUrl: "https://github.com/obviouslynotdim/teedeployment-test",
   },
 ];

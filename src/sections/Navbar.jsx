@@ -9,12 +9,12 @@ function Navigation({ onNavigate }) {
             </a>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#about">
+            <a className="nav-link" href="#about" onClick={onNavigate}>
                 About
             </a>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#project">
+            <a className="nav-link" href="#projects" onClick={onNavigate}>
                 Project
             </a>
         </li>

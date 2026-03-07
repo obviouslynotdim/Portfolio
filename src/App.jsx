@@ -1,5 +1,5 @@
 import { Navbar } from "./sections/navbar";
-import { Hero } from "./sections/Hero";
+import Hero from "./sections/Hero";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
 import { About } from "./sections/About";

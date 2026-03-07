@@ -43,7 +43,7 @@ export const About = () => {
                                 <Code className="h-6 w-6 text-lavender"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Web Development</h4>
+                                <h4 className="font-semibold text-lg"> Mobile Development</h4>
                                 <p className="text-muted-foreground">
                                     Creating responsive mobile applications using Flutter and modern UI frameworks.
                                 </p>

@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react"
+import resumePdf from "/assets/pdf/Setha_Vathanak-Resume.pdf";
 
 export const About = () => {
     return (
@@ -29,7 +30,7 @@ export const About = () => {
                             Get In Touch
                         </a>
 
-                        <a href="" className="px-6 py-2 rounded-full border border-lavender text-white hover:bg-lavender transition-colors duration-300">
+                        <a href={resumePdf} download="Setha_Vathanak-Resume.pdf" className="px-6 py-2 rounded-full border border-lavender text-white hover:bg-lavender transition-colors duration-300">
                             Download CV
                         </a>
                     </div>

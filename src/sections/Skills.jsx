@@ -57,12 +57,20 @@ const skillSet = [
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
+        name: "Java",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    },
+    {
         name: "Express",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     },
     {
         name: "Tailwind CSS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+        name: "NodeJS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     },
     {
         name: "Django",
@@ -89,8 +97,12 @@ const skillSet = [
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     },
     {
-        name: "Github",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        name: "Git",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    },
+    {
+        name: "Unity",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg",
     },
 ];
 
@@ -178,7 +190,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
                         {skillSet.map((skill) => (
                             <motion.div
                                 key={skill.name}
@@ -186,15 +198,15 @@ const Skills = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true, amount: 0.25 }}
                                 transition={{ duration: 0.45 }}
-                                className="group rounded-xl border border-white/10 bg-lavender/8 backdrop-blur-sm px-3 py-4 flex flex-col items-center justify-center gap-2 hover:border-lavender/60 hover:bg-lavender/15 transition-all duration-300"
+                                className="group rounded-lg border border-white/10 bg-lavender/8 backdrop-blur-sm px-2 py-2 flex flex-col items-center justify-center gap-1 hover:border-lavender/60 hover:bg-lavender/15 transition-all duration-300"
                             >
                                 <img
                                     src={skill.icon}
                                     alt={`${skill.name} logo`}
                                     loading="lazy"
-                                    className="w-10 h-10 object-contain drop-shadow-[0_0_10px_rgba(122,87,219,0.5)] group-hover:scale-110 transition-transform duration-300"
+                                    className="w-8 h-8 object-contain drop-shadow-[0_0_8px_rgba(122,87,219,0.4)] group-hover:scale-110 transition-transform duration-300"
                                 />
-                                <span className="text-sm font-medium text-white/90">{skill.name}</span>
+                                <span className="text-xs font-medium text-white/80">{skill.name}</span>
                             </motion.div>
                         ))}
                     </div>

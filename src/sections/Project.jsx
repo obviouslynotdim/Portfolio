@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "MhobFinder 🥙",
     description: "MhobFinder is a web-based platform that helps users find recipes using the ingredients they already have at home. It simplifies meal planning, promotes healthier cooking, and reduces food waste.",
-    image: "/projects/mhobfinder.png",
+    image: "/projects/mhohfinder.jpg",
     tags: ["ReactJS", "JavaScript", "Node", "Express", "MySQL", "Firebase"],
     demoUrl: "#",
     githubUrl: "https://github.com/obviouslynotdim/MhobFinder",
